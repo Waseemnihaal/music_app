@@ -552,7 +552,7 @@ class _EleaveState extends State<Eleave> {
                                                 date1 == ''
                                                     ? datead(date)
                                                     : datead(date) +
-                                                        '-' +
+                                                        ' - ' +
                                                         datead(date1));
                                             lrs();
 
